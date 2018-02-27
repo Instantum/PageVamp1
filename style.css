@@ -1,0 +1,111 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #7d7979;
+}
+.body-wrapper{
+	margin: auto;
+	width: 1300px;
+}
+.header{
+	position: sticky;
+    top: 0px;
+    display: grid;
+    padding: 15px 38px 25px;
+    background-color: white;
+}
+.company-name{
+	font-size: 18px;
+	color: black;
+	font-weight: 600;
+}
+.nav-bar{
+	position: absolute;
+	right:72px;
+	font-size: 14px;
+}
+.nav-bar ul{
+	list-style-type: none;
+}
+.nav-bar ul li{
+	display: inline;
+}
+.nav-bar a{
+	text-decoration: none;
+	padding: 5px;
+	color: #7d7979;
+}
+.nav-bar a:hover, .dropbtn:hover{
+	color: black;
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -11px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	color: black;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.information{
+	width: 80%;
+	padding: 50px;
+	text-align: center;
+	margin: 57px auto 46px auto;
+    line-height: 2;
+}
+.articles{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 20px;
+	padding: 62px;
+}
+.read-more{
+	padding: 9px;
+	border: 2px solid #6b6b6b;
+	border-radius: 6px;
+	width: max-content;
+	font-size: 12px;
+    margin-top: 10px;
+    color: black;
+}
+.read-more:hover{
+	border: 2px solid #2becdc;
+	color: #2becdc;
+}
+.copyright{
+	position: relative;
+	display: flex;
+}
+.footer-logo{
+	position: absolute;
+	right:30px;
+}
+.social{
+	margin: 15px auto 40px auto;
+	text-align: center;
+}
+.social img{
+	padding: 20px;
+	opacity: 0.5;
+}
+.social img:hover{
+	opacity: 1;
+}
